@@ -17,21 +17,6 @@ app.get('/aboutthepage', function(req, res){
 app.get('/home', function(req, res){
   res.sendFile(path.join(__dirname, 'home2.html'));
 });
-app.get('/Chapter1', function(req, res){
-  res.sendFile(path.join(__dirname, 'aboutthepage.html'));
-});
-app.get('/Chapter2', function(req, res){
-  res.sendFile(path.join(__dirname, 'aboutthepage.html'));
-});
-app.get('/Chapter3', function(req, res){
-  res.sendFile(path.join(__dirname, 'aboutthepage.html'));
-});
-app.get('/Chapter4', function(req, res){
-  res.sendFile(path.join(__dirname, 'aboutthepage.html'));
-});
-app.get('/Chapter5', function(req, res){
-  res.sendFile(path.join(__dirname, 'aboutthepage.html'));
-});
 
 //express server listen
 var server = app.listen(app.get('port'), function(){
